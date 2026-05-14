@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(116, 10, 26);
+    color: goldenrod;
+}
+h1 {
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px rgb(0, 0, 0);
+}
+#nome {
+    color: rgb(255, 215, 0);
+    font-size: 24px;
+    font-weight: 100;
+}
+a {
+    color: rgb(86, 75, 115);
+    text-decoration: none;
+}
+.citacao{
+    color: rgb(79, 128, 0);
+    border-left: 2px solid rgb(128, 81, 0);
+    padding-left: 10px;
+}
+table {
+    color: chocolate;
+    width: 30%;
+    margin-top: auto;
+    border-collapse: collapse;
+}
