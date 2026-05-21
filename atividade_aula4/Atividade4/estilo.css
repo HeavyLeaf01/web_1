@@ -1,0 +1,43 @@
+body {
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+p {
+  margin: 20px 0;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+  margin-right: 15px;
+}
+
+img.foto-grid {
+  width: 200px;
+  height: auto;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#foto-destaque {
+  border: 5px solid goldenrod;
+  transform: scale(1.1);
+  display: block;
+  margin: 0 auto;
+}
+
+i {
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.center {
+  text-align: center;
+}
+
+.footer {
+  margin-top: 40px;
+}

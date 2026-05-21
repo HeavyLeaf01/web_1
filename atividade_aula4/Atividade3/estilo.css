@@ -1,0 +1,32 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 16px;
+  color: #111;
+}
+
+dt {
+  font-weight: bold;
+  font-size: 16px;
+  margin-top: 6px;
+}
+
+a.btn-matricula {
+  background-color: #007bff;
+  color: #fff;
+  padding: 8px 12px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 4px;
+  margin-top: 6px;
+}
+
+#lista-modulos {
+  list-style-type: decimal-leading-zero;
+  color: #111;
+  padding-left: 20px;
+}
+
+ol#lista-modulos li {
+  margin-bottom: 8px;
+}
+
