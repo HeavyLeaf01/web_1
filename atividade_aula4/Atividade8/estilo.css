@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 20px;
+    background-color: black;
+    color: white;
+}
+
+#menu-navegacao {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #ff6666;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.link-ingresso {
+    border: 2px solid red;
+    color: white;
+    padding: 8px 12px;
+    display: inline-block;
+    animation: pulse 2s infinite;
+}
+
+
+#palco-principal {
+    font-size: 48px;
+    text-shadow: 2px 2px red;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table, th, td {
+    border: 1px solid white;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}

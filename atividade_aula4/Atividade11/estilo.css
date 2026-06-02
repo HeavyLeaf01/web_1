@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 20px;
+    background-color: white;
+    color: #333333;
+}
+
+#menu-navegacao {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+
+
+i {
+    font-family: serif;
+    color: gold;
+}
+
+.review-card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    margin-bottom: 15px;
+}

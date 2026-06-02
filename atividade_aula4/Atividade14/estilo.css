@@ -1,0 +1,32 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 20px;
+    background-color: white;
+    color: #333333;
+}
+
+#menu-navegacao {
+    margin-bottom: 20px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+}
+
+
+dt {
+    color: purple;
+    font-size: 20px;
+}
+
+.frase-exemplo i {
+    color: #555;
+    display: block;
+}
+
+#verbo-irregular {
+    background-color: lightpink;
+    padding: 5px;
+}

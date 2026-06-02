@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    margin: 20px;
+}
+
+#menu-navegacao {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+    background-color: white;
+    padding: 10px 0;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th,
+table td {
+    border: 1px solid #000000;
+    padding: 8px;
+}
+
+table th {
+    background-color: #333333;
+    color: white;
+    text-transform: uppercase;
+}
+
+.cargo-socio {
+    font-variant: small-caps;
+    display: block;
+}
