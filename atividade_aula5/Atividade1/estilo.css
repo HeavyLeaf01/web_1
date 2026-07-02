@@ -1,4 +1,15 @@
+body{
+    background-color: #001229;
+    font-family: Arial, sans-serif;
+    margin: 50;
+    padding: 0;
+}
+
 header{
+    border-radius: 100px;
+    background-color: #4156bd;
+    background-origin: padding-box;
+    
     display: flex;
     font-size: 2px;
     padding: -10px;
@@ -7,17 +18,30 @@ header{
         margin-left: 160px;
     
     }
+    li{
+        list-style: inside;
+        display: inline-block;
+        margin-left: 200px;
+        margin-top: 20px;
+    }
     img{
-        width: 10%;
-        height: 10%;
-        margin-left: 20px;
+
+        border-radius: 500px;
+        width: 8%;
+        height: 1%;
+        margin-left: 100px;
+        border: black 5px solid;
     }
     a{
+        background-color: white;
+        border-radius: 10px;
         display: flex;
-        direction: collumn;
+        flex-direction: column;
         text-decoration: none;
         color: black;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-weight: bold;
         font-size: 20px;
-        margin-left: 20px;
+        margin-left: 0px;
     }
 }
