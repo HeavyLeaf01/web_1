@@ -1,7 +1,7 @@
 body{
     background-color: #001229;
     font-family: Arial, sans-serif;
-    margin: 50;
+    margin: 0;
     padding: 0;
 }
 
@@ -21,10 +21,15 @@ header{
     display: flex;
     font-size: 2px;
     padding: -10px;
+    margin: 50;
+    gap: 200px;
    
 }
 
 h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 50px;
     margin-left: 160px;
 
@@ -33,12 +38,15 @@ h1{
 nav{
     display: flex;
 }
-ul{
+ul, ol{
     display: flex;
     flex-direction: column;    
     justify-content: space-evenly;
     align-items: start;
     margin-right: 20vh;
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 li{
     list-style: inside;
@@ -60,4 +68,54 @@ a{
     font-weight: bold;
     font-size: 20px;
 
+}
+
+#titulo{
+    color: white;
+    margin:0;
+    margin-top: 50px;
+}
+
+.cursos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0;
+    margin-top: 50px;
+
+}
+
+.listStyle{
+    list-style: circle;
+    padding: 0;
+    margin: 0;
+    margin-left: -200px;
+}
+
+.listaCursos{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+
+}
+
+.listaCursos a{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    font-size: 75px;
+    height: 100px;
+    width: 500px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a3f55;
+    color: white;
+    font-size: 20px;
+    margin-top: 100px;
 }
