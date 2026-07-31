@@ -1,0 +1,40 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+
+}
+
+header{
+    display: flex;
+    background-color: #d2d04d;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+main{
+    padding: 15px;
+    padding-bottom: 0;
+}
+h1 {
+    font-size: 50px;
+    color: #000000;
+}
+
+article{
+    display: flex;
+    background-color: #c5ab28;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height: 60%;
+}
+section{
+    width: 100%;
+    height: 40%;
+    background-color: #dec545;
+}
