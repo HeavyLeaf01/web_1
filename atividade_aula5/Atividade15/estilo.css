@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #eef2f3;
+    min-height: 100vh;
+}
+header {
+    background-color: #2980b9;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 1000;
+    border-radius: 50px;
+    background-color: white;
+    color: #2980b9;
+    padding: 10px 20px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 30px;
+    gap: 20px;
+}
+.titulo {
+    display: flex;
+    font-weight: 1000;
+    color: #2c3e50;
+    font-size: 20px;
+}
+.disciplinas {
+    display: flex;
+    gap: 20px;
+    border-bottom: black 2px solid;
+    padding-bottom: 20px;
+}
+.disciplina {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3498db;
+    color: white;
+    padding: 50px 30px;
+    flex: 1;
+    border-radius: 10px;
+    font-weight: 1000;
+}
+.info {
+    display: flex;
+    gap: 20px;
+}
+.bloco {
+    display: flex;
+    align-items: center;
+    background-color: #bdc3c7;
+    flex: 1;
+    padding: 40px 20px;
+    border-radius: 10px;
+    font-weight: 1000;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #2980b9;
+    color: white;
+}

@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    background-color: #fff9f0;
+    min-height: 100vh;
+}
+header {
+    background-color: #e15f41;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+nav a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 1000;
+    border-radius: 50px;
+    background-color: white;
+    color: #e15f41;
+    padding: 10px 20px;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 20px;
+    gap: 15px;
+}
+.titulos-container {
+    display: flex;
+}
+.titulo {
+    font-weight: 1000;
+    color: #333;
+    flex: 1;
+    padding: 0 10px;
+}
+.conteudo {
+    display: flex;
+    gap: 20px;
+}
+.lista {
+    display: flex;
+    flex: 2;
+    gap: 10px;
+    border: black 5px solid;
+    padding: 15px;
+}
+.receita {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #f3a683;
+    color: white;
+    padding: 50px 15px 15px 15px;
+    flex: 1;
+    font-weight: 1000;
+}
+.destaque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7d794;
+    flex: 1;
+    padding: 20px;
+    font-weight: 1000;
+    border: black 5px solid;
+}
+.rodape-info {
+    display: flex;
+    gap: 20px;
+}
+.bloco {
+    display: flex;
+    padding: 20px;
+    background-color: #f5cd79;
+    flex: 1;
+    font-weight: 1000;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-color: #e15f41;
+    color: white;
+}
