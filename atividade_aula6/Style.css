@@ -3,9 +3,9 @@ body {
     margin: 0;
     padding: 0;
     background-color: #eec9c9;
-
 }
-h1{
+
+h1 {
     color: #94524f;
 }
 
@@ -16,11 +16,11 @@ p, a {
 a {
     text-decoration: none;
     background-color: #94524f;
-    border-radius: 100px;
+    border-radius: 10px;
     font-size: 20px;
     padding: 30px;
-    margin: 20px;
 }
+
 header {
     background-color: #e27c77;
     padding: 40px;
@@ -35,11 +35,12 @@ ul {
     padding: 0;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     gap: 50pt;
 }
 
-.Resultado2, .Resultado3 {
+
+.Resultado2, .Resultado3, .Resultado4 {
     display: flex;
     background-color: #e2adad;
     border-radius: 100px;
@@ -48,4 +49,48 @@ ul {
     text-align: center;
     justify-content: center;
     align-items: center;
+}
+
+.Resultado5, .ResultadoLogin, .ResultadoCalc, .ResultadoTemp, .ResultadoDesc, .ResultadoFrete, .ResultadoVel, #semaforoVisor, .ResultadoEstoque, .ResultadoClassificacao {
+    display: flex;
+    background-color: #e2adad;
+    border-radius: 100px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.barraContainer {
+    width: 300px;
+    background-color: #eec9c9;
+    border: 2px solid #94524f;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+
+#barraProgresso {
+    height: 30px;
+    width: 0%;
+    background-color: #94524f;
+}
+
+input {
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid #94524f;
+}
+
+button {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #94524f;
+    color: #eec9c9;
+    border: none;
+    cursor: pointer;
+    margin: 2px;
 }
